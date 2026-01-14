@@ -19,7 +19,7 @@ int formingMagicSquare(int arr[3][3])
 
     int minCost = INT_MAX;
 
-    // Compare input array with each magic square
+    
     for (int k = 0; k < 8; k++)
     {
         int cost = 0;
